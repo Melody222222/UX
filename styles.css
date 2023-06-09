@@ -1,0 +1,551 @@
+/* 
+a:link { 
+  color: black;
+text-decoration: none;
+}
+a {
+color: black;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+}
+a:visited { 
+  text-decoration: none; 
+ 
+}
+#videoFlow {
+  height: 120px;
+  width: auto;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.caseStudy:hover { 
+  background-color:#B3E3F7;
+  transition: 0.2s;
+  border-radius: 4px;
+  text-decoration: none; 
+  transform: scale(1.1); 
+  transition: 0.3s;
+  border-radius: 4px; 
+
+}
+
+a:active { 
+  text-decoration: none; 
+}
+h1 {
+  font-family: 'Josefin Slab', serif;
+ text-align: left;
+ padding: 4px;
+ font-size:  44px;
+ font-weight: 900;
+margin-top: 20px;
+}
+h2 {
+  font-family: 'Josefin Slab', serif;
+  text-align: left;
+  padding: 4px;
+  font-size: 22px;
+}
+.zoom {
+  transition: 0.6s;
+}
+.projects {
+  float:left;
+text-align: center; 
+  padding: 30px;
+  border-radius: 4px;
+  background-color: #0ABAB5;
+  margin: 60px;
+  transition: 0.6s;
+  text-decoration: none; 
+}
+
+
+#displayProjects {
+margin-top: 280px;
+display: flex;
+}
+
+#projectResults {
+
+  border-radius: 6px;
+}
+#projectChallenge {
+  background-color: #F0EEED;
+  
+}
+#projectSolution {
+  background-color: #F0EEED;
+}
+#projectAbout {
+  background-color: #d6c6bd;
+  max-width: fit-content;
+  margin-left:20%;
+}
+
+
+.backgroundImage {
+margin: 10px;
+border-radius: 6px;
+}
+.logoImage {
+max-width: 80px;
+max-height: 80px;
+padding: 6px;
+}
+#toolsUsed {
+  max-width: fit-content;
+  margin-left: 4%;
+}
+h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+#rowInfo {
+  background-color: #d9d9d9;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#headingOne {
+  background-color: #f94144;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  border-radius: 4px;
+}
+#headingTwo {
+  background-color: #f3722c;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  border-radius: 4px;
+}
+#headingThree {
+  background-color: #f8961e;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  border-radius: 4px;
+}
+#headingFour {
+  background-color: #f9c74f;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  border-radius: 4px;
+}
+#headingFive {
+  background-color: #90be6d;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  border-radius: 4px;
+}
+.usabilityImage {
+  border-radius: 4px;
+  max-width: 45%;
+  padding: 4 4px; 
+  margin: 20px;
+}
+
+.affinityWorkshop {
+  border-radius: 6px;
+ max-height: 28%;
+  flex: 25%;
+  max-width: 30%;
+  padding: 0 4px;
+  margin-left: 20px;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+/* .affinityWorkshop:hover {
+  background-color: #b5eae8;
+  transform: scale(1.4); 
+  transition: 0.3s;
+  border-radius: 4px;
+  text-decoration: none;    
+
+} */
+
+/* .column {
+border-radius: 6px;
+  padding: 0 4px;
+}
+.uxTesting {
+  background-color:slategray;
+}
+.workShop {
+  background-color: darkcyan;
+  padding: 6px;
+  border-radius: 6px;
+}
+.customerJourney {
+padding: 2px;
+border-radius: 6px;
+width: 100%;
+flex: 30%;
+max-width: 100%;
+padding: 0 4px;
+}
+.customerJourney:hover {
+  transform: scale(1.4); 
+  transition: 0.4s;
+  border-radius: 4px;
+  text-decoration: none; 
+}  */
+/* #journeyImage {
+  padding: 2px;
+  border-radius: 6px;
+  width: 100%;
+  flex: 30%;
+  max-width: 80%;
+  max-height: 40%;
+  padding: 0 4px;
+}  */
+
+/* Index Page Style */
+
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+
+    "footer footer footer";
+  grid-template-rows: auto auto;  
+  grid-template-columns: 320px 400px 400px;
+  height: 40vh;
+
+  }  
+
+
+
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body { 
+ 
+    grid-template-areas: 
+      "header"
+      "footer";
+    grid-template-rows: 20px 1fr 40px 1fr 15px;  
+    grid-template-columns: auto auto auto;
+ }
+}
+
+
+#profilePhotoOne {
+  width: 220px;
+  height: auto;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  border: 1px solid whitesmoke;
+  z-index: 1;
+  border-radius: 8px;
+
+  
+  }
+  #profilePhotoTwo {
+    width: 220px;
+    height: auto;
+    position: absolute;
+    top: 240px;
+    left: 60px;
+    border: 1px solid whitesmoke;
+    z-index: 2;
+   border-radius: 8px;
+    
+    }
+
+    #allCaseStudies {
+      margin-top:260px;
+    }
+    .caseStudy {
+text-decoration: black;
+      padding: 2px;
+      text-align: center;
+      background-color: #f8d562;
+      margin: 2px;
+      height: 80px;
+      width: 270px;
+      border-radius: 8px;
+    }
+    /* .caseStudy {
+
+      padding: 2px;
+      text-align: center;
+      background-color: #f8d562;
+      margin: 2px;
+      height: 80px;
+      width: 270px;
+      border-radius: 8px;
+    } */
+    .caseStudyTwo {
+
+      padding: 2px;
+      text-align: center;
+      background-color: #f8d562;
+      margin: 2px;
+      height: 80px;
+      width: 270px;
+      border-radius: 8px;
+    }
+    .caseStudyThree {
+      padding: 2px;
+      text-align: center;
+      background-color: #f8d562;
+      margin: 2px;
+      height: 80px;
+      width: 270px;
+      border-radius: 8px;
+    }
+
+img {
+  height: 40px;
+  width: auto;
+  margin-left:10px;
+}
+a:link { 
+  color: black;
+text-decoration: none;
+}
+a {
+color: black;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+}
+a:visited { 
+  text-decoration: none; 
+ 
+}
+#videoFlow {
+  height: 120px;
+  width: auto;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.caseStudy:hover { 
+  background-color:#B3E3F7;
+  transition: 0.2s;
+  border-radius: 4px;
+  text-decoration: none; 
+  transform: scale(1.1); 
+  transition: 0.3s;
+  border-radius: 4px; 
+  text-shadow: #0ABAB5;
+
+}
+.csTitles {
+  color: black;
+  font: 200;
+}
+
+h1 {
+  font-family: 'Josefin Slab', serif;
+ text-align: left;
+ padding: 4px;
+ font-size:  44px;
+ font-weight: 900;
+margin-top: 20px;
+}
+h2 {
+  font-family: 'Josefin Slab', serif;
+  text-align: left;
+  padding: 4px;
+  font-size: 22px;
+}
+.zoom {
+  transition: 0.6s;
+}
+.projects {
+  float:left;
+text-align: center; 
+  padding: 30px;
+  border-radius: 2px;
+  background-color: #0ABAB5;
+  margin: 60px;
+  transition: 0.6s;
+  text-decoration: none; 
+ color: black;
+}
+
+
+#displayProjects {
+margin-top: 280px;
+display: flex;
+}
+
+/* 
+ 
+}
+#headerThree {
+background-image: url(websiteImages/MusicNotes.png);
+align-items:left;
+background-repeat: no-repeat;
+background-size: 260px;
+
+
+} */
+
+/* Project 1 Page */
+#headerThree {
+  background-image: url(websiteImages/MusicNotes.png);
+  animation: 1s ease-out 0s 1 slideInLeft;
+  align-items:left;
+  background-repeat: no-repeat;
+  background-size: 260px;
+  
+  
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  #contactMeTwo:hover {
+    transform: scale(1.4); 
+    transition: 0.1s;
+    border-radius: 4px;
+    text-decoration: none; 
+ }
+ #contactMe:hover {
+  transform: scale(1.4); 
+  transition: 0.1s;
+  border-radius: 4px;
+  text-decoration: none; 
+ }
+
+  /* .wrapper {
+    display: grid;
+  
+    grid-template-areas:
+     "header"
+     "footer"
+  } */
+
+  /* #videoFlow {
+    height: 120px;
+    width: auto;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .caseInfo {
+    margin: auto;
+    width: 88%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+.container {
+  margin: auto;
+  width: 88%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+
+  #headingOne {
+    background-color: #f94144;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    border-radius: 4px;
+  }
+  #headingTwo {
+    background-color: #f3722c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    border-radius: 4px;
+  }
+  #headingThree {
+    background-color: #f8961e;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    border-radius: 4px;
+  }
+  #headingFour {
+    background-color: #f9c74f;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    border-radius: 4px;
+  }
+  #headingFive {
+    background-color: #90be6d;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    border-radius: 4px;
+  }
+  .usabilityImage {
+    border-radius: 4px;
+    max-width: 45%;
+    padding: 4 4px; 
+    margin: 20px;
+  }
+  
+  .affinityWorkshop {
+    border-radius: 6px;
+
+    flex: 25%; 
+    padding: 0 4px;
+
+    margin-top: 8px;
+    vertical-align: middle;
+  
+
+
+    margin: auto;
+  
+    border: 3px solid green;
+   
+  }
+   .affinityWorkshop:hover {
+
+    transform: scale(1.1); 
+    transition: 0.3s;
+    border-radius: 4px;
+    text-decoration: none;    
+  
+  } */
+/* 
+  @media only screen and (min-width: 500px)  {
+  .wrapper {
+
+    grid-template-columns: 1% auto;
+    grid-template-areas:
+    "header   header"
+
+    "footer   footer";
+  }
+  }
+
+  @media only screen and (min-width: 600px)   {
+    .wrapper {
+      grid-gap: 1px;
+      grid-template-columns: 100px auto 100px;
+      grid-template-areas:
+      "header  header  header"
+  
+      "footer  footer  footer";
+      max-width: 680px;
+    }
+  }
+
+.header,
+.footer {
+  background-color: #999;
+
+} */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, Helvetica, Sans Serif;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+}
