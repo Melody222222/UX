@@ -209,12 +209,17 @@ body {
 
     "footer footer footer";
   grid-template-rows: auto auto;  
-  grid-template-columns: 320px 400px 400px;
+  grid-template-columns: 300px 300px 300px;
   height: 40vh;
+  background-color: #0ABAB5;
 
   }  
 
-
+  .header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
 
 /* Stack the layout on small devices/viewports. */
 @media all and (max-width: 575px) {
@@ -223,15 +228,16 @@ body {
     grid-template-areas: 
       "header"
       "footer";
-    grid-template-rows: 20px 1fr 40px 1fr 15px;  
+    grid-template-rows: 15px 1fr 40px 1fr 15px;  
     grid-template-columns: auto auto auto;
  }
 }
 
 
+
 #profilePhotoOne {
-  width: 220px;
-  height: auto;
+  width: auto;
+  height: 150px;
   position: relative;
   top: 10px;
   left: 10px;
@@ -242,8 +248,8 @@ body {
   
   }
   #profilePhotoTwo {
-    width: 220px;
-    height: auto;
+    width: auto;
+    height: 150px;
     position: absolute;
     top: 240px;
     left: 60px;
@@ -387,10 +393,11 @@ background-size: 260px;
 /* Project 1 Page */
 #headerThree {
   background-image: url(websiteImages/MusicNotes.png);
-  animation: 1s ease-out 0s 1 slideInLeft;
-  align-items:left;
+  width: 100%;
+ 
+  
   background-repeat: no-repeat;
-  background-size: 260px;
+ 
   
   
   }
