@@ -1,0 +1,184 @@
+{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 8px;
+}
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.caseStudy {
+
+  text-decoration: wheat;
+  font-size: 16px;
+  padding-top: 2px;
+  text-align: center;
+  background-color: #0277B5;
+  margin-top: 10px;
+  height: 100px;
+  width: 250px;
+  border-radius: 8px;
+
+}
+
+
+#profilePhotoOne {
+  width: 66%;
+  position: relative;
+  padding: 6px;
+  z-index: 1;
+  border-radius: 18px;
+
+}
+
+#profilePhotoTwo {
+  width: 66%;
+  position: relative;
+  padding: 10px;
+  left: 120px;
+  z-index: 2;
+  border-radius: 18px;
+
+}
+
+#contactMeTwo:hover {
+  transform: scale(1.4);
+  transition: 0.1s;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+#contactMe:hover {
+  transform: scale(1.4);
+  transition: 0.1s;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+#contactMe {
+  width: auto;
+  height: 50px;
+  padding: 5px
+}
+
+#contactMeTwo {
+  width: auto;
+  height: 50px;
+  padding: 5px;
+
+
+
+
+}
+
+.caseStudy:hover {
+  background-color: #b59a02;
+  transition: 0.2s;
+  border-radius: 4px;
+  text-decoration: none;
+  transform: scale(1.1);
+  transition: 0.3s;
+  border-radius: 4px;
+
+
+
+}
+
+.csTitles {
+  color: white;
+  font: 200;
+  padding-top: 4px;
+  border-color: black;
+  border: 4px;
+}
+
+h1 {
+  font-family: 'Josefin Slab', serif;
+  text-align: left;
+  padding: 4px;
+  font-size: 44px;
+  font-weight: 1000;
+  margin-top: 20px;
+
+}
+
+h2 {
+  font-family: 'Josefin Slab', serif;
+  text-align: left;
+  padding: 4px;
+  font-size: 22px;
+  font-weight: 900;
+  color: #414a4c;
+}
+
+h3 {
+  color: #414a4c;
+  font-family: 'Josefin Slab', serif;
+  text-align: left;
+  padding: 4px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.zoom {
+  transition: 0.6s;
+}
+
+
+body {
+  margin: 0;
+  background-color: #e5f1f7;
+  font-family: 'Josefin Slab', serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+#blockCS {
+  margin-top: 200px;
+}
+
+#aboutMe {
+  background-color: #a9c5e8;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+
+#photos {
+
+  background-image: url(./websiteImages/Logo\ Music\ Note.png);
+
+  background-repeat: no-repeat;
+  background-size: 180px;
+  background-position: left -12px bottom 60px;
+
+}
+
+#links {
+
+  background-image: url(./websiteImages/Hello\,\ I\ am\ Melody.\ \(Logo\)\ \(100\ ×\ 100\ px\)\ \(420\ ×\ 297\ mm\).png);
+  background-repeat: no-repeat;
+  background-size: 240px;
+  background-position: top 60px;
+
+
+}
