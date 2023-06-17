@@ -380,6 +380,14 @@ img:hover {
   text-decoration: none;
   border-radius: 4px; 
 }
+#comingSoon {
+  width: auto;
+  height: 260px;
+  margin-left: 450px;
+}
+#projectThree {
+  background-color: antiquewhite;
+}
 /* #caseInfo {
   margin-left: 70px;
 } */
