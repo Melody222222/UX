@@ -26,34 +26,35 @@
 .caseStudy {
 
  
-  font-size: 16px;
-  padding-top: 1px;
-  text-align: center;
 
+ 
+  text-align: center;
 background-color: #2FBDBD;
-background-repeat: no-repeat;
   margin-top: 8px;
-  height: 80px;
-  width: 300px;
-  border-radius: 8px;
+  height: 65px;
+  width: 320px;
+  border-radius: 6px;
 
 }
 
 
 #profilePhotoOne {
-  width: 66%;
+  width: 260px;
+  height: auto;
   position: relative;
   padding: 6px;
   z-index: 1;
+ margin-left: 10px;
   border-radius: 18px;
 
 }
 
 #profilePhotoTwo {
-  width: 66%;
+  width: 260px;
+  height: auto;
   position: relative;
-  padding: 10px;
-  left: 120px;
+  padding: 6px;
+  left: 140px;
   z-index: 2;
   border-radius: 18px;
 
@@ -176,15 +177,7 @@ text-decoration: none;
   height: 40px;
   padding: 2px;
 }
-#photos {
 
-  background-image: url(./websiteImages/Music\ Notes\ 3.png); 
-
-  background-repeat: no-repeat;
-  background-size: 130px;
-  background-position: bottom 70px left 8px;
-
-}
 
 #links {
 
@@ -204,14 +197,7 @@ text-decoration: none;
   border-radius: 6px;
  
 }
-#profilePhoto {
-  width: 20%;
-  position: relative;
- margin: 8px;
- margin-bottom: -8px;
-  float: left;
-  border-radius: 7px;
-}
+
 #aboutMeTitle {
  
  
