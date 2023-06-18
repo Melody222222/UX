@@ -73,7 +73,13 @@ body {
     border-radius: 4px;
     text-decoration: none;
   }
+  .contactMe {
+    width: auto;
+    height: 52px;
+    padding: 2px;
+    font-family: 'Roboto', sans-serif;
   
+  }
   h1,
   h2,
   h3,
@@ -285,7 +291,7 @@ body {
   li {
     font-family: 'Poppins', sans-serif;
   line-height: 1.5;
-    font-weight:normal;
+    font-weight:light;
   }
   
   

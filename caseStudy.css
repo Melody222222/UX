@@ -388,6 +388,13 @@ img:hover {
 #projectThree {
   background-color: antiquewhite;
 }
+.contactMe {
+  width: auto;
+  height: 52px;
+  padding: 2px;
+  font-family: 'Roboto', sans-serif;
+
+}
 /* #caseInfo {
   margin-left: 70px;
 } */
