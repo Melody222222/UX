@@ -25,9 +25,19 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;  
   }
-  #info {
+  .info {
     background-color: #0066c4;
     color: whitesmoke;
+    
+  }
+  #info {
+    width:100%;
+    margin-left: -12px;
+  }
+  #nav {
+    width:99%; 
+    padding-right: 15px;
+    margin-left: -8px;
   }
   .infoHeader {
     background-color: #0066c4;
@@ -64,7 +74,7 @@ body {
   #affinityWorkshopSummary {
     width: auto;
     height: 240px;
-
+float:left;
   }
   
   #affinityWorkshopSummary:hover {
@@ -101,9 +111,7 @@ body {
     font-weight: normal;
     font-size: 17px;
   }
-  #navTo {
-    font-weight: 800px;
-  }
+
   #considerations {
     line-height: 1.5;
     color: black;
@@ -195,21 +203,7 @@ body {
     text-decoration: none;
   
   }
-  
-  /* #mainArticle {
-    grid-area: article;
-  
-  
-  } */
-  
-  /* .navBar {
-    color: #84c5d8;
-  } */
-  
-  /* #siteAds {
-    grid-area: ads;
-  
-  } */
+
   
   /* Stack the layout on small devices/viewports. */
   @media all and (max-width: 340px) {
@@ -314,9 +308,9 @@ body {
   }
   
   .affinityWorkshop {
-    border-radius: 6px;
-    margin: 20px;
-    margin-top: 8px;
+    border-radius: 3px;
+    margin: 10px;
+    margin-top: 2px;
     border: 1px solid grey;
   
   }

@@ -69,11 +69,11 @@ h1,
 h2,
 h3,
 h4 {
-  color: black;
+  color: white;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
   line-height: 1;
-  background-color: #f05358;
+  background-color: #41538e;
   border-radius: 4px;
 
 max-width: 100%; 
@@ -156,22 +156,17 @@ h5 {
   text-decoration: none;
 
 }
-
-/* #mainArticle {
-  grid-area: article;
-
-
-} */
-
-/* .navBar {
-  color: #84c5d8;
-} */
-
-/* #siteAds {
-  grid-area: ads;
-
-} */
-
+#navBar {
+  width: 99%;
+  margin-left: -5px;
+}
+#infoHead {
+  width:100%;
+}
+#benchMarking {
+  width: auto;
+  height: 280px
+}
 /* Stack the layout on small devices/viewports. */
 @media all and (max-width: 340px) {
   body {
@@ -394,6 +389,9 @@ img:hover {
   padding: 2px;
   font-family: 'Roboto', sans-serif;
 
+}
+.info {
+  color: white;
 }
 /* #caseInfo {
   margin-left: 70px;
