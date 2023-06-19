@@ -2,19 +2,7 @@
   box-sizing: border-box;
 }
 
-/* .column {
-  float: left;
-  width: 33.33%;
-  padding: 8px;
-} */
 
-
-/* Clearfix (clear floats) */
-/* .row::after {
-  content: "";
-  clear: both;
-  display: table;
-} */
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 500px) {
@@ -27,34 +15,24 @@ ul {
 }
 
  #partTwo {
-  width: 90%;
+  width: 98%;
   border-radius: 6px;
   background-color:whitesmoke;
-  opacity: 88%;
+ 
 
  }
+
 #partTwoRow {
   border-radius: 9px;
  margin-left: 6px;
  padding: 4px;
- opacity: 88%;
+
 }
 #heading {
 
 float: right;
 }
-#profilePhotoOne {
-  width: auto;
-  height: 140px;
-  position: relative; 
-
-
-
-  border-radius: 4px;
-  display: flex;
-
-}
-#profilePhoto {
+#secondPic {
   position: relative;
   float: right;
   border: 1px dotted cadetblue;
@@ -66,21 +44,24 @@ float: right;
  margin: 4px;
 
 }
+#aboutMeWriteUp {
+text-align: left;
+}
 
-#profilePhotoTwo {
+#profilePhoto {
+  position: relative;
+  float: left;
+  border: 1px dotted cadetblue;
   width: auto;
+  top: -10px;
   height: 200px;
- 
-  position: relative; 
-
-  float:left;
-
-  z-index: 2;
-  border-radius: 8px;
+  border-radius: 4px;
   display: flex;
-
+ margin: 4px;
 
 }
+
+
 
 
 .contactMe:hover {
@@ -103,7 +84,7 @@ p {
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   color: #000000;
-  font-weight: bold;
+  font-weight:normal;
   line-height: 1.5;
   text-align: justify;
 }
@@ -113,8 +94,8 @@ h1 {
  color: #000000;
   text-align: left;
 padding-top: 4px;
-  font-size: 44px;
-font-weight:normal;
+  font-size: 40px;
+font-weight:bold;
 
   font-family: 'Adamina', serif;
 }
@@ -146,10 +127,10 @@ h3 {
 #index {
 margin-left: 4%;
 margin-right: 4%;
-opacity: 90%;
 
-background-color: #02b594;
-background-image: url(./websiteImages/backgrounds\ \(1\).png);
+
+background-color: teal;
+/* background-image: url(./websiteImages/backgrounds\ \(1\).png); */
 background-repeat: no-repeat;
 background-size:99.9%;
 
@@ -168,7 +149,7 @@ a {
 border-radius: 6px;
 max-width: fit-content;
 width: auto;
-opacity: 90%;
+
 
 
   background-color:white;
@@ -194,26 +175,11 @@ border-radius: 4px;
 text-decoration: none;
 }
 
-#infoPng {
-  width: auto;
-  height: 40px;
-  padding: 2px;
-}
 
 
 
 
 
-.navigationToPages {
-text-decoration: none;
-font-weight: bolder;
-color: black;
-font-family: 'Work Sans', sans-serif;
-font-stretch: condensed;
-padding: 15px;
-
-
-}
 
 * {
   box-sizing: border-box;
@@ -222,7 +188,7 @@ padding: 15px;
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
-  width: 75%;
+  width: 97%;
   height: 100%;
 
  background-color:#fafafb;
@@ -239,24 +205,14 @@ padding: 15px;
     width: 100%;
   }
 }
-#thirdCase {
-  color:#050301;
-  font-family: 'Adamina', serif;
-  padding-top: 20px;
-  font-weight: bolder;
-}
-#aboutMe {
 
-border-radius: 8px;
-width: 100%;
-  background-repeat: no-repeat;
-}
+
 #meMeMe {
   /* background-image: url(./websiteImages/backgrounds\ \(1\).png);
   background-repeat: no-repeat;
   background-size: 100%;
 background-position: right top 1px; */
-opacity: 90%;
+margin-top: 10px;
 margin-left: 1%;
 border-radius: 6px;
 background-color:white;
