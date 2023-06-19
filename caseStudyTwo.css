@@ -286,7 +286,17 @@ body {
   
     background-color: #84c5d8;
   }
+  #contactMeCS {
+
+  }
+  #navPageOne {
+    border-radius: 6px;
+  width: 400px;
+  background-color:white;
+  margin-left: -10px;
+    
   
+  }
   lh,
   li {
     font-family: 'Poppins', sans-serif;
